@@ -14,8 +14,8 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -116,6 +116,47 @@
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Checkout my</p>
+      <h1 class="title">Professional Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Software Engineer at Seneca Global IT Services -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/seneca-global.png" alt="Seneca Global IT Services" class="experience-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Software Engineer at Seneca Global IT Services</h2>
+            <p class="experience-duration">Aug 2021 - July 2023</p>
+            <ul class="experience-highlights">
+              <li>Contributed to Agile development for a cybersecurity client, resolving 50+ issues with 92% code coverage.</li>
+              <li>Managed Python-based reporting in Docker, automating uploads to AWS S3, improving efficiency by 88%.</li>
+              <li>Integrated 2 SaaS applications using ELK Stack and Java for processing firewall logs.</li>
+              <li>Leveraged Chalice for serverless architecture, tracking delivery status of 300,000+ emails monthly.</li>
+            </ul>
+          </div>
+    
+          <!-- Software Engineer Internship at Seneca Global IT Services -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/internship.jpeg" alt="Internship at Seneca Global IT Services" class="experience-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Software Engineer Internship at Seneca Global IT Services</h2>
+            <p class="experience-duration">March 2021 - July 2021</p>
+            <ul class="experience-highlights">
+              <li>Acquired knowledge in SDLC, MVC architecture, Agile methodologies, and Git practices.</li>
+              <li>Developed a Firebase-authenticated web app with Angular frontend, Flask backend, and PostgreSQL integration.</li>
+              <li>Implemented CI/CD using Jenkins for automated deployment and testing.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" 
+      alt="Arrow icon" 
+      class="icon arrow" 
+      onclick="location.href='./#skills'" 
       />
     </section>
     <section id="skills">
@@ -329,43 +370,7 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Checkout my</p>
-      <h1 class="title">Professional Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <!-- Software Engineer at Seneca Global IT Services -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/seneca-global.png" alt="Seneca Global IT Services" class="experience-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Software Engineer at Seneca Global IT Services</h2>
-            <p class="experience-duration">Aug 2021 - July 2023</p>
-            <ul class="experience-highlights">
-              <li>Contributed to Agile development for a cybersecurity client, resolving 50+ issues with 92% code coverage.</li>
-              <li>Managed Python-based reporting in Docker, automating uploads to AWS S3, improving efficiency by 88%.</li>
-              <li>Integrated 2 SaaS applications using ELK Stack and Java for processing firewall logs.</li>
-              <li>Leveraged Chalice for serverless architecture, tracking delivery status of 300,000+ emails monthly.</li>
-            </ul>
-          </div>
-    
-          <!-- Software Engineer Internship at Seneca Global IT Services -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/internship.jpeg" alt="Internship at Seneca Global IT Services" class="experience-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Software Engineer Internship at Seneca Global IT Services</h2>
-            <p class="experience-duration">March 2021 - July 2021</p>
-            <ul class="experience-highlights">
-              <li>Acquired knowledge in SDLC, MVC architecture, Agile methodologies, and Git practices.</li>
-              <li>Developed a Firebase-authenticated web app with Angular frontend, Flask backend, and PostgreSQL integration.</li>
-              <li>Implemented CI/CD using Jenkins for automated deployment and testing.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-    </section>
+
     
     
     <section id="projects">
@@ -374,42 +379,42 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <!-- Eco Well Project -->
-          <div class="details-container color-container">
+          <div class="details-container color-container project-item" onclick="location.href='https://github.com/nikitha0612/Ecowell'">
             <div class="article-container">
               <img src="./assets/eco-well.jpeg" alt="Eco Well" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Eco Well</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nikitha0612/Ecowell'">
-                Github
-              </button>
+              <p>A nutritional analysis web application built on the MERN stack, aimed at providing users with insights into their dietary habits and personalized product recommendations</p>
             </div>
+            <div class="overlay"></div>
+            <img src="./assets/link-icon.png" alt="Link Icon" class="link-icon">
           </div>
   
           <!-- Absolute Zero Project -->
-          <div class="details-container color-container">
+          <div class="details-container color-container project-item" onclick="location.href='https://github.com/Shiva-017/BlinkStep'">
             <div class="article-container">
-              <img src="./assets/absolute-zero.jpeg" alt="Absolute Zero" class="project-img" />
+              <img src="./assets/absolute-zero.jpeg" alt="Absolute Zero" class="project-img abs-zero-img" />
             </div>
             <h2 class="experience-sub-title project-title">Absolute Zero</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Shiva-017/BlinkStep'">
-                Github
-              </button>
+              <p>An application utilizing Java and Google Maps API to facilitate real-time navigation and offline route planning for users within urban environments</p>
             </div>
+            <div class="overlay"></div>
+            <img src="./assets/link-icon.png" alt="Link Icon" class="link-icon">
           </div>
   
           <!-- Railway Management System Project -->
-          <div class="details-container color-container">
+          <div class="details-container color-container project-item" onclick="location.href='https://github.com/nikitha-kambhampati/Railway-Management-System'">
             <div class="article-container">
               <img src="./assets/railway-management.jpeg" alt="Railway Management System" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Railway Management System</h2>
+            <h2 class="experience-sub-title project-title">Railway System</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nikitha-kambhampati/Railway-Management-System'">
-                Github
-              </button>
+              <p> A comprehensive database system using SQL Server and Angular, designed to manage train operations, passenger data, and generate interactive reports using Tableau for insights and decision-making</p>
             </div>
+            <div class="overlay"></div>
+            <img src="./assets/link-icon.png" alt="Link Icon" class="link-icon">
           </div>
         </div>
       </div>
@@ -418,25 +423,34 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:nikithak0612@gmail.com">nikithak0612@gmail.com</a></p>
+      <div class="contact-container">
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:nikithak0612@gmail.com">nikithak0612@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a href="https://linkedin.com/in/nikitha-kambhampati/">LinkedIn</a></p>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://linkedin.com/in/nikitha-kambhampati/">LinkedIn</a></p>
+        <div class="contact-form-container">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </section>
+    
+    
+    
+    
+    
+    
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -449,7 +463,6 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Nikitha Kambhampati</p>
     </footer>
     <script src="script.js"></script>
   </body>
