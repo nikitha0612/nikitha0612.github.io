@@ -276,7 +276,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -2rem;
   bottom: 2.5rem;
 }
 
@@ -508,4 +508,5 @@ button:hover {
 .project-item:hover .link-icon {
   display: block; 
 }
+
 
