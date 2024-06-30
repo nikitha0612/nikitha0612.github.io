@@ -20,7 +20,8 @@
     display: flex;
   }
   #skills,
-  .skills-details-container {
+  .skills-details-container,
+  .experience-details-container {
     margin-top: 2rem;
   }
   #profile,
@@ -44,6 +45,7 @@
   }
   .about-containers {
     margin-top: 0;
+    flex-wrap: wrap;
   }
 }
 
@@ -100,4 +102,13 @@
   .text-container {
     text-align: justify;
   }
+  
+  .contact-info-upper-container {
+    overflow:scroll;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
 }
